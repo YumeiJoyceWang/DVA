@@ -31,7 +31,7 @@ Latitude and longitude of each nursing home are combined with Nursing home COVID
 For fixed values, forward fill them using the latest value available, then backward fill if still missing.
 For values which are not expected to move drastically in a short period of time, forward fill only.
 Skipping backward fill to avoid peeking into the future.
-- Feature engineering
+- Feature engineering:
 1) One-hot encoding categorical variables; 
 2) Logarithm transformation of right skewed numeric features1; 
 3) Lagging selected features to allow the model to see more historical data.
@@ -53,3 +53,10 @@ To better measure model performance we plotted its Receiver Operating Characteri
 - code/2_LightGBM_classification.ipynb performs feature engineering, treat missing variables and build LightGBM model
 - code/3_prediction_LightGBM_classification.ipynb make predicts using LightGBM model 
 
+### Visualization
+1) Tableau generates tableau extract with visual dataset produced from model post-data processing.
+2) Create Tableau MAP sheet, Top 10 Sheet, Trend plot-facility sheet and dashboard1, dashboard1 is final visual product. 
+3) Tableau visual dashboard and data extract published on Tableau public server (https://public.tableau.com/app/profile/ruby1883/viz/team88-final-project/Dashboard1?publish=yes), tableau workbook and data could be downloaded from site, and also saved in Doc/TableauWorkbook folder (team88-final-project.twbx)
+
+### Demo video
+https://www.youtube.com/watch?v=kRvvEhb150Y
