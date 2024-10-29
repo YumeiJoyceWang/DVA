@@ -31,4 +31,4 @@ Tableau Dashboard is available at https://public.tableau.com/app/profile/ruby188
 ##################
 # DEMO VIDEO
 ##################
-https://youtu.be/WPDeCED8ZNE
+https://www.youtube.com/watch?v=kRvvEhb150Y
